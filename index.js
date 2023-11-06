@@ -16,7 +16,7 @@ if (player1Roll === player2Roll)
 else if (player1Roll > player2Roll) 
     prompt.textContent = "🚩 Player 1 Wins!";
 else if (player1Roll < player2Roll) 
-    prompt.textContent = "🚩 Player 2 Wins!";
+    prompt.textContent = "Player 2 Wins! 🚩";
 
 
 function generateRandomInt() {
